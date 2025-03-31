@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="B001">
+        <title>Introduction to JavaScript</title>
+        <author>John Doe</author>
+        <price>29.99</price>
+        <genre>Programming</genre>
+    </book>
+    <book id="B002">
+        <title>Web Development Essentials</title>
+        <author>Jane Smith</author>
+        <price>34.99</price>
+        <genre>Web Design</genre>
+    </book>
+    <book id="B003">
+        <title>Mastering XML</title>
+        <author>Emily White</author>
+        <price>24.99</price>
+        <genre>Data</genre>
+    </book>
+</bookstore>

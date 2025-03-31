@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<Link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+</head>
+<body>
+    <h2>📚 Welcome to the Book Store</h2>
+    <input type="text" id="searchInput" placeholder="Search books..." onkeyup="filterBooks()"><button onclick="clearSearchBar()">Clear Search</button>
+    <p id="searchFeedback" style="color: red; font-weight: bold;"></p>
+
+    <div id="bookList"></div>
+    <ul id="cartList"></ul>
+    <script src="script.js"></script>
+    <h3 id="cartTotal">Total: $0.00</h3>
+    <button onclick="clearCart()">Clear Cart</button>
+    <h4>🛒 Shopping Cart</h4>
+</body>
+</html>

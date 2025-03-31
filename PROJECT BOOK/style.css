@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #4361ee; /* Light gray for subtle contrast */
+}
+
+#bookList {
+    display: flex;
+    flex-wrap: wrap; /* Ensures books wrap to the next row if space runs out */
+    justify-content: center; /* Centers the content */
+    gap: 20px; /* Adds spacing between book items */
+    margin: 20px auto;
+    width: 90%; /* Adjust for responsive design */
+}
+
+.book-item {
+    border: 1px solid #101010;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #6b705c; /* White background for books */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for aesthetic */
+    text-align: left; /* Align book details to the left */
+    width: 250px; /* Set a fixed width for book cards */
+}
+
+.book-item strong {
+    font-size: 1.2em;
+}
+
+.book-item button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: 1b263b; /* Blue button */
+    color: rgb(58, 58, 58);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.book-item button:hover {
+    background-color: #6a6969; /* Darker blue on hover */
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px;
+}
